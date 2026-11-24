@@ -1,12 +1,21 @@
 # DistribPro — État d'avancement
 
-Date de mise à jour : 2026-11-23
+Date de mise à jour : 2026-11-24
 
 ## Résumé
 
 DistribPro est une application Next.js App Router multi-tenant pour distributeurs marocains. Le socle applicatif est en grande partie implémenté : authentification, dashboard fournisseur, portail client B2B, tarification personnalisée, commandes atomiques côté Supabase, super-administration plateforme et landing page SEO.
 
 Le projet passe `npm run typecheck`, les tests unitaires passent (14/14) et le build de production avec variables placeholder a réussi. Améliorations récentes : correction de la requête d'adhésion entreprise, redirection sécurisée des non-admins, nettoyage storage, pages d'erreur/404, documentation base de données et statut fonctionnel.
+
+## Dépôt et déploiement
+
+- Dépôt Git initialisé (branche `main`), 153 fichiers suivis.
+- Remote : `https://github.com/mohammedamineelmoutaouakil-cyber/distribpro`.
+- Premier commit poussé : `ba1d24b chore: initial commit - DistribPro MVP`.
+- Authentification GitHub via GitHub CLI (device flow).
+- `.gitignore` exclut `node_modules`, `.next`, `.env.local`, `*.zip`.
+- Déploiement Vercel : à effectuer après création du projet Supabase.
 
 ## Fonctionnalités développées
 
